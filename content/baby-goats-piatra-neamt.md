@@ -1,8 +1,13 @@
----
-title: "Baby Goats in Piatra Neamț, Romania"
-date: 2025-11-20T17:15:00+02:00
-draft: false
----
++++
+title = "Baby Goats in Piatra Neamț, Romania"
+date = 2025-11-20T17:15:00+02:00
+draft = false
+summary = """
+Visit **Piatra Neamț** in the Eastern Carpathians and meet adorable baby goats!
+
+Learn where to find them, fun facts, and check out a Python program for tracking goat sightings.
+"""
++++
 
 ## Discovering Baby Goats in Piatra Neamț
 

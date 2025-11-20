@@ -15,7 +15,7 @@
         <article>
             <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             <time>{{ .Date.Format "January 2, 2006" }}</time>
-            <p>{{ .Summary }}</p>
+            <div>{{ .Params.summary | markdownify }}</div>
         </article>
     {{ else }}
         <p>No posts yet.</p>

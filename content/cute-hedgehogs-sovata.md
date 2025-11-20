@@ -2,6 +2,11 @@
 date = '2025-11-20T18:13:00+02:00'
 draft = true
 title = 'Cute Hedgehogs in Sovata'
+summary = """
+Discover the **adorable European hedgehogs** that call Sovata home!
+
+Learn where to spot them, fascinating facts about these *spiny creatures*, and see a Scala implementation for tracking hedgehog sightings.
+"""
 +++
 
 ## Discovering Hedgehogs in Sovata
