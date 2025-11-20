@@ -1,3 +1,8 @@
 baseURL = 'https://vgrigoriu.github.io/blog/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = 'solarized-light'
