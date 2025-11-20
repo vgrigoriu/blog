@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+</head>
+<body>
+    <h1>Welcome to {{ .Site.Title }}</h1>
+    <p>This is a simple Hugo blog.</p>
+
+    <h2>Recent Posts</h2>
+    {{ range first 10 .Site.RegularPages }}
+        <article>
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
+            <p>{{ .Summary }}</p>
+        </article>
+    {{ else }}
+        <p>No posts yet.</p>
+    {{ end }}
+</body>
+</html>
