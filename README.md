@@ -7,7 +7,7 @@ A simple Hugo blog deployed to GitHub Pages.
 To run the blog locally:
 
 ```bash
-hugo serve --baseURL http://localhost:1313/
+hugo serve --buildDrafts --baseURL http://localhost:1313/
 ```
 
 The site will be available at http://localhost:1313/
