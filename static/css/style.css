@@ -3,6 +3,7 @@
 body {
     font-family: 'EB Garamond', serif;
     font-size: 1.25rem;
+    line-height: 1.6;
     max-width: 650px;
     margin: 0 auto;
     padding: 20px;
@@ -11,4 +12,8 @@ body {
 code, pre {
     font-family: 'Source Code Pro', monospace;
     font-size: 0.95rem;
+}
+
+pre {
+    overflow-x: auto;
 }
